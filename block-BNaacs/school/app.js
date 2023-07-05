@@ -1,6 +1,7 @@
  var express  = require('express');
 
   var app = express();
+  // middlewere
 
   app.set('view' , 'ejs');
   app.set('views' , path.join(__dirname , 'views'))
